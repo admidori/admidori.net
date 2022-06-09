@@ -12,19 +12,19 @@
 
 .name{
 	font-family: monospace;
-	font-size: 35px;	
+	font-size: 30px;	
 	text-align: center;
 }
 
 .subname{
 	font-family: monospace;
-	font-size: 20px;	
+	font-size: 17px;	
 	text-align: center;
 }
 
 .introduction{
 	margin: 15px 0 0;
-	font-size: 17px;
+	font-size: 16px;
 	line-height: 1.5;
 	text-align: center;
 }
