@@ -2,7 +2,31 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: "monospace"
+	background-color: #f8f5e3;
+}
+
+.accounts{
+	font-size: 15px;
+	text-align: center;
+}
+
+.name{
+	font-family: monospace;
+	font-size: 35px;	
+	text-align: center;
+}
+
+.subname{
+	font-family: monospace;
+	font-size: 20px;	
+	text-align: center;
+}
+
+.introduction{
+	margin: 15px 0 0;
+	font-size: 17px;
+	line-height: 1.5;
+	text-align: center;
 }
 
 .wrap {
@@ -11,10 +35,14 @@
 
 .content {
 	width: 100%;
-	max-width: 600px;
+	max-width: 500px;
 	margin: 0 auto;
 	padding: 16px;
-	background-color: #fff;
+	background-color: #f8f5e3;
+}
+
+.copyright {
+	text-align: center;
 }
 
 .heading-lv1 {
@@ -38,6 +66,12 @@
 	margin: 16px 0 0;
 	font-size: 16px;
 	line-height: 1.5;
+}
+
+.mini-text {
+	margin: 16px 0 0;
+	font-size: 13px;
+	line-height: 0;
 }
 
 .text-center {
