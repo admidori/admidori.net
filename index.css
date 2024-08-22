@@ -11,43 +11,43 @@
     --nc-ac-1:#7928CA;
     --nc-ac-tx:#FFFFFF
 }
-    *{
-        margin:0;
-        padding:0
-    }
-    img,p,ul{
-        margin-bottom:1rem
-    }
-    html{
-        font-family:var(--nc-font-sans)
-    }
-    body{
-        margin:0 auto;
-        max-width:750px;
-        padding:1rem;
-        border-radius:6px;
-        overflow-x:hidden;
-        word-break:break-word;
-        overflow-wrap:break-word;
-        background:var(--nc-bg-2);
-        color:var(--nc-tx-2);
-        font-size:1.03rem;
-        line-height:1.5
-    }
-    a{
-        color:var(--nc-lk-1)
-    }
-    hr{
-        border:0;
-        border-bottom:1px solid var(--nc-bg-3);
-        margin:1rem auto
-    }
-    ul{
-        padding-left:2rem
-    }
-    li{
-        margin-top:.4rem
-    }
-    img{
-        max-width:100%
-    }
+*{
+    margin:0;
+    padding:0
+}
+img,p,ul{
+    margin-bottom:1rem
+}
+html{
+    font-family:var(--nc-font-sans)
+}
+body{
+    margin:0 auto;
+    max-width:750px;
+    padding:1rem;
+    border-radius:6px;
+    overflow-x:hidden;
+    word-break:break-word;
+    overflow-wrap:break-word;
+    background:var(--nc-bg-2);
+    color:var(--nc-tx-2);
+    font-size:1.03rem;
+    line-height:1.5
+}
+a{
+    color:var(--nc-lk-1)
+}
+hr{
+    border:0;
+    border-bottom:1px solid var(--nc-bg-3);
+    margin:1rem auto
+}
+ul{
+    padding-left:2rem
+}
+li{
+    margin-top:.4rem
+}
+img{
+    max-width:100%
+}
