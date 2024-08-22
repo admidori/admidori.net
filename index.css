@@ -51,3 +51,68 @@ li{
 img{
     max-width:100%
 }
+
+.profile_leftside{
+    display:inline-block;
+    width:60%;
+}
+.profile_rightside{
+    display:inline-block;
+    width:40%;
+    float:right;
+    text-align:right;
+}
+.icon{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    gap: 0px 12px;
+    padding-left: 60px;
+}
+.name{
+    display: flex;
+    justify-content: center;
+    padding-left: 60px;
+}
+
+@media screen and (max-width: 480px){
+    .profile_leftside{
+        display: block;
+        width: 100%;
+    }
+    .profile_rightside{
+        display: block;
+        width: 100%;
+    }
+    .icon{
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+    }
+    .icon_box{
+        display: flex;
+        justify-content: center;
+        gap: 0px 12px;
+    }
+    .links{
+        display: flex;
+        justify-content: center;
+        gap: 0px 12px;
+        padding-right: 60px;
+    }
+    .name{
+        display: flex;
+        justify-content: center;
+        gap: 0px 12px;
+        padding-right: 60px;
+    }
+    .about_me{
+        display: flex;
+        justify-content: center;
+        gap: 0px 12px;
+    }
+}
