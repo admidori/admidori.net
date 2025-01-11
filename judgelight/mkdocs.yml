@@ -1,1 +1,11 @@
-site_name: My Docs
+site_name: 'Judgelight'
+site_description: 'The judgement server for competitive-programming.'
+site_author: 'Aoi Kondo'
+site_url: 'https://admidori.net/judgelight'
+copyright: 'Copyright (c) 2023-2024 Aoi Kondo'
+
+docs_dir: 'docs'
+theme:
+  name: 'material'
+  palette:
+    primary: 'teal'
